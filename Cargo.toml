@@ -1,0 +1,8 @@
+[package]
+name = "bytes-test"
+version = "0.1.0"
+authors = ["Stepan Koltsov <stepan.koltsov@gmail.com>"]
+
+[dependencies]
+notify = "4.0.3"
+protobuf = { version = "2.0.2", features = ["with-bytes"]}
